@@ -83,7 +83,9 @@ Exercise/Challenge part 2: (answer as much as you can)
 7. Now use the let function to (a) lowercase the string, and then (b) replace "am" with "am not" in the result
 
 8. You're really, really confident that the variable myNonNullVariable can't contain null. Change the following code to assert that myNonNullVariable isn't null (and shoot yourself in the foot!)
-
+         
+       val myNonNullVariable: Int? = null
+       myNonNullVariable?.toDouble()
  
 
 References for above topics:
